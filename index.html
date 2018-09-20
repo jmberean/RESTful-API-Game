@@ -59,8 +59,8 @@
                 
                 <div class "col">
                     <ul>
-                        <li v-for="player in players">
-                            {(player.name)}
+                        <li v-for="player in players" @click = "makeCurrent(player)">
+                            {{player.name}}
                         </li>
                     </ul>
                 </div>
@@ -72,16 +72,6 @@
 
         <script>
             
-<!--            $(document).ready(function(){-->
-<!--                $("button").click(function(){-->
-<!--                    $("p").hide();-->
-<!--                    });-->
-<!--            });            -->
-<!--            $(function(){-->
-<!--                $("hi").on("click", function(){-->
-<!--                    size+= $(this).css({fontsize: size})-->
-<!--                    });-->
-<!--            });-->
 
             const v = new Vue({
                 el: "#app",
