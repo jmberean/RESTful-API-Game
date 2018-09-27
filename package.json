@@ -1,0 +1,22 @@
+{
+  "name": "web-prog-class-work",
+  "version": "1.0.0",
+  "description": "Web-Prog-Class-Work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnybskate/Web-Prog-Class-Work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnybskate/Web-Prog-Class-Work/issues"
+  },
+  "homepage": "https://github.com/johnnybskate/Web-Prog-Class-Work#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
